@@ -1,4 +1,4 @@
-gevent>=1.0
+gevent>=23.9.0
 pysnmp
 pysnmp-mibs
 pysmi
