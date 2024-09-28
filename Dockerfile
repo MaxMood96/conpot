@@ -16,7 +16,7 @@ RUN pip3 install --user --no-cache-dir /opt/conpot
 
 
 # Run container
-FROM python:3.8-slim
+FROM python:3.13.0rc2-slim
 
 RUN adduser --disabled-password --gecos "" conpot
 WORKDIR /home/conpot
