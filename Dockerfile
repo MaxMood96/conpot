@@ -18,7 +18,7 @@ COPY . .
 RUN pip3 install --no-cache-dir .
 
 # Stage 2: Runtime stage
-FROM python:3.8-slim
+FROM python:3.14.0a3-slim
 
 # Install runtime dependencies
 RUN apt-get update && apt-get install -y \
