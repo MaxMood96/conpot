@@ -9,7 +9,7 @@ sphinx
 libtaxii>=1.1.0
 crc16
 natsort
-scapy==2.4.5
+scapy==2.7.0rc1
 hpfeeds3
 modbus-tk
 stix-validator
