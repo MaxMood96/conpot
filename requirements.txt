@@ -2,7 +2,7 @@ gevent>=1.0
 pysnmp==4.4.12
 pysnmp-mibs
 pysmi==0.3.2
-pyasn1==0.4.8
+pyasn1==0.6.2
 lxml
 requests
 sphinx
